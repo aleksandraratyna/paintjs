@@ -1,0 +1,32 @@
+body { 
+    height: 100vh; 
+    margin: 0; 
+}
+
+div { 
+    width: 5px; 
+    height: 5px;
+    border-radius: 50%;
+    background-color: darkmagenta;
+    position: absolute; 
+}
+
+p {
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkviolet;
+    font-size: 40px;
+}
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
